@@ -1,5 +1,4 @@
 CLAUDE.md
-wrangler.toml
 template.yaml
 edgeone.json
 
@@ -86,6 +85,7 @@ temp/
 
 DOCKER_GUIDE.md
 AGENTS.md
+misub-agent.md
 
 # Local development and testing
 local-server.js
@@ -100,3 +100,8 @@ test-screenshots/
 # Docker (Closed Source)
 docker/
 data/
+/brain/
+/scratch/
+
+# AI assistant workspace data
+.workbuddy-ai/

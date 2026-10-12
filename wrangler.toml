@@ -1,0 +1,20 @@
+name = "misub"
+account_id = "5f0f967f8a7514a497861b1e1f7147e5"
+pages_build_output_dir = "dist"
+compatibility_date = "2026-10-11"
+compatibility_flags = ["nodejs_compat"]
+
+[[kv_namespaces]]
+binding = "MISUB_KV"
+id = "3d11b8f8eaf345b4bebb4f9c269c1b7d"
+
+[[d1_databases]]
+binding = "MISUB_DB"
+database_name = "misub-db"
+database_id = "5f1a0894-c10a-4e34-9ee1-dc6d441fce1d"
+
+# Preview deployments cannot access production storage.
+[env.preview]
+kv_namespaces = []
+d1_databases = []
+
