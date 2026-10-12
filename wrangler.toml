@@ -1,5 +1,4 @@
 name = "misub"
-account_id = "5f0f967f8a7514a497861b1e1f7147e5"
 pages_build_output_dir = "dist"
 compatibility_date = "2026-10-11"
 compatibility_flags = ["nodejs_compat"]
